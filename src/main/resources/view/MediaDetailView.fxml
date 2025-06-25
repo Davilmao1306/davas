@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefWidth="500.0" spacing="10.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diariocultural.fx.MediaDetailViewController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <Label fx:id="titleLabel" text="Título da Mídia">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="originalTitleLabel" text="Título Original" textFill="#555555" />
+        <Separator prefWidth="200.0" />
+
+        <GridPane hgap="10.0" vgap="8.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="120.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            </columnConstraints>
+
+            <children>
+                <Label text="Tipo:" style="-fx-font-weight: bold;" />
+                <Label fx:id="typeLabel" text="-" GridPane.columnIndex="1" />
+
+                <Label text="Ano:" style="-fx-font-weight: bold;" GridPane.rowIndex="1" />
+                <Label fx:id="yearLabel" text="-" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+                <Label fx:id="creatorTitleLabel" text="Autor/Diretor:" style="-fx-font-weight: bold;" GridPane.rowIndex="2" />
+                <Label fx:id="creatorNameLabel" text="-" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+                <Label fx:id="durationTitleLabel" text="Duração:" style="-fx-font-weight: bold;" GridPane.rowIndex="3" />
+                <Label fx:id="durationLabel" text="-" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+                <Label fx:id="isbnTitleLabel" text="ISBN:" style="-fx-font-weight: bold;" GridPane.rowIndex="4" />
+                <Label fx:id="isbnLabel" text="-" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            </children>
+        </GridPane>
+
+        <Label text="Gêneros:" style="-fx-font-weight: bold;" />
+        <Label fx:id="genresLabel" text="-" wrapText="true" />
+
+        <Label text="Elenco Principal:" style="-fx-font-weight: bold;" />
+        <Label fx:id="castLabel" text="-" wrapText="true" />
+    </children>
+</VBox>

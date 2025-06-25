@@ -1,0 +1,313 @@
+[ {
+  "title" : "O Poderoso Chefão",
+  "genre" : [ "Crime", "Drama" ],
+  "releaseYear" : 1972,
+  "movieId" : 2,
+  "originalTitle" : "The Godfather",
+  "duration" : 175,
+  "director" : "Francis Ford Coppola",
+  "synopsis" : "A saga de uma família mafiosa italiana em Nova York.",
+  "cast" : [ "Marlon Brando", "Al Pacino", "James Caan" ],
+  "whereToWatch" : [ "Netflix", "Star+" ],
+  "watchedStatus" : true,
+  "watchDate" : 1672542000000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "Obra-prima do cinema.",
+      "reviewDate" : 1672542000000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "Um Sonho de Liberdade",
+  "genre" : [ "Drama" ],
+  "releaseYear" : 1994,
+  "movieId" : 3,
+  "originalTitle" : "The Shawshank Redemption",
+  "duration" : 142,
+  "director" : "Frank Darabont",
+  "synopsis" : "Dois homens presos criam um laço de amizade ao longo de vários anos, encontrando consolo e redenção através de atos de decência comum.",
+  "cast" : [ "Tim Robbins", "Morgan Freeman" ],
+  "whereToWatch" : [ "HBO Max" ],
+  "watchedStatus" : false,
+  "watchDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Pulp Fiction: Tempo de Violência",
+  "genre" : [ "Crime", "Drama" ],
+  "releaseYear" : 1994,
+  "movieId" : 4,
+  "originalTitle" : "Pulp Fiction",
+  "duration" : 154,
+  "director" : "Quentin Tarantino",
+  "synopsis" : "As vidas de dois assassinos da máfia, um boxeador, a esposa de um gângster e um par de bandidos se entrelaçam em quatro contos de violência e redenção.",
+  "cast" : [ "John Travolta", "Uma Thurman", "Samuel L. Jackson" ],
+  "whereToWatch" : [ "Netflix" ],
+  "watchedStatus" : true,
+  "watchDate" : 1680318000000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "Diálogos geniais e estrutura inovadora.",
+      "reviewDate" : 1680318000000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "A Origem",
+  "genre" : [ "Ação", "Aventura", "Ficção Científica" ],
+  "releaseYear" : 2010,
+  "movieId" : 5,
+  "originalTitle" : "Inception",
+  "duration" : 148,
+  "director" : "Christopher Nolan",
+  "synopsis" : "Um ladrão que rouba segredos corporativos através do uso da tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um C.E.O.",
+  "cast" : [ "Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page" ],
+  "whereToWatch" : [ "HBO Max" ],
+  "watchedStatus" : false,
+  "watchDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Cidade de Deus",
+  "genre" : [ "Crime", "Drama" ],
+  "releaseYear" : 2002,
+  "movieId" : 6,
+  "originalTitle" : "Cidade de Deus",
+  "duration" : 130,
+  "director" : "Fernando Meirelles",
+  "synopsis" : "Nas favelas do Rio de Janeiro, dois meninos seguem caminhos diferentes. Um se torna fotógrafo, o outro, traficante.",
+  "cast" : [ "Alexandre Rodrigues", "Leandro Firmino", "Phellipe Haagensen" ],
+  "whereToWatch" : [ "GloboPlay" ],
+  "watchedStatus" : true,
+  "watchDate" : 1693537200000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "Impactante e necessário. Cinema nacional no seu auge.",
+      "reviewDate" : 1693537200000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "Parasita",
+  "genre" : [ "Suspense", "Drama", "Comédia" ],
+  "releaseYear" : 2019,
+  "movieId" : 7,
+  "originalTitle" : "Gisaengchung",
+  "duration" : 132,
+  "director" : "Bong Joon Ho",
+  "synopsis" : "A ganância e a discriminação de classe ameaçam o relacionamento simbiótico recém-formado entre a rica família Park e a pobre família Kim.",
+  "cast" : [ "Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong" ],
+  "whereToWatch" : [ "Telecine" ],
+  "watchedStatus" : true,
+  "watchDate" : 1704078000000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "Uma montanha-russa de emoções. Mereceu o Oscar.",
+      "reviewDate" : 1704078000000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "De Volta para o Futuro",
+  "genre" : [ "Aventura", "Comédia", "Ficção Científica" ],
+  "releaseYear" : 1985,
+  "movieId" : 8,
+  "originalTitle" : "Back to the Future",
+  "duration" : 116,
+  "director" : "Robert Zemeckis",
+  "synopsis" : "Um adolescente é acidentalmente enviado trinta anos no passado em uma máquina do tempo inventada por seu amigo cientista.",
+  "cast" : [ "Michael J. Fox", "Christopher Lloyd", "Lea Thompson" ],
+  "whereToWatch" : [ "Star+" ],
+  "watchedStatus" : false,
+  "watchDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "A Viagem de Chihiro",
+  "genre" : [ "Animação", "Aventura", "Fantasia" ],
+  "releaseYear" : 2001,
+  "movieId" : 9,
+  "originalTitle" : "Sen to Chihiro no Kamikakushi",
+  "duration" : 125,
+  "director" : "Hayao Miyazaki",
+  "synopsis" : "Durante a mudança para um novo bairro, uma menina de 10 anos se depara com um mundo governado por deuses, bruxas e espíritos.",
+  "cast" : [ "Rumi Hiiragi", "Miyu Irino", "Mari Natsuki" ],
+  "whereToWatch" : [ "Netflix" ],
+  "watchedStatus" : true,
+  "watchDate" : 1688180400000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "Visualmente deslumbrante e emocionante.",
+      "reviewDate" : 1688180400000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "Forrest Gump: O Contador de Histórias",
+  "genre" : [ "Drama", "Romance" ],
+  "releaseYear" : 1994,
+  "movieId" : 10,
+  "originalTitle" : "Forrest Gump",
+  "duration" : 142,
+  "director" : "Robert Zemeckis",
+  "synopsis" : "As presidências de Kennedy e Johnson, o Vietnã, Watergate e outros eventos históricos se desenrolam através da perspectiva de um homem do Alabama com um QI de 75.",
+  "cast" : [ "Tom Hanks", "Robin Wright", "Gary Sinise" ],
+  "whereToWatch" : [ "Netflix", "HBO Max" ],
+  "watchedStatus" : false,
+  "watchDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Matrix",
+  "genre" : [ "Ação", "Ficção Científica" ],
+  "releaseYear" : 1999,
+  "movieId" : 11,
+  "originalTitle" : "The Matrix",
+  "duration" : 136,
+  "director" : "Lana Wachowski",
+  "synopsis" : "Um hacker descobre que sua realidade é uma simulação complexa e se junta a uma rebelião para libertar a humanidade.",
+  "cast" : [ "Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss" ],
+  "whereToWatch" : [ "HBO Max" ],
+  "watchedStatus" : true,
+  "watchDate" : 1690858800000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "Revolucionou o cinema de ação.",
+      "reviewDate" : 1690858800000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "Jurassic Park: O Parque dos Dinossauros",
+  "genre" : [ "Aventura", "Ficção Científica" ],
+  "releaseYear" : 1993,
+  "movieId" : 12,
+  "originalTitle" : "Jurassic Park",
+  "duration" : 127,
+  "director" : "Steven Spielberg",
+  "synopsis" : "Durante uma visita de pré-visualização, um parque temático sofre uma falha de energia, permitindo que seus dinossauros clonados escapem.",
+  "cast" : [ "Sam Neill", "Laura Dern", "Jeff Goldblum" ],
+  "whereToWatch" : [ "Prime Video", "Star+" ],
+  "watchedStatus" : true,
+  "watchDate" : 1685588400000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 4,
+      "comment" : "Efeitos especiais incríveis para a época.",
+      "reviewDate" : 1685588400000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 4.0,
+    "lastRating" : 4
+  },
+  "averageRating" : 4.0
+}, {
+  "title" : "Batman: O Cavaleiro das Trevas",
+  "genre" : [ "Ação", "Crime", "Drama" ],
+  "releaseYear" : 2008,
+  "movieId" : 13,
+  "originalTitle" : "The Dark Knight",
+  "duration" : 152,
+  "director" : "Christopher Nolan",
+  "synopsis" : "Quando a ameaça conhecida como Coringa emerge, Batman deve aceitar um dos maiores testes psicológicos e físicos de sua capacidade de lutar contra a injustiça.",
+  "cast" : [ "Christian Bale", "Heath Ledger", "Aaron Eckhart" ],
+  "whereToWatch" : [ "HBO Max" ],
+  "watchedStatus" : false,
+  "watchDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Clube da Luta",
+  "genre" : [ "Drama" ],
+  "releaseYear" : 1999,
+  "movieId" : 14,
+  "originalTitle" : "Fight Club",
+  "duration" : 139,
+  "director" : "David Fincher",
+  "synopsis" : "Um trabalhador de escritório com insônia, procurando uma maneira de mudar sua vida, cruza o caminho de um fabricante de sabão e eles formam um clube de luta underground.",
+  "cast" : [ "Brad Pitt", "Edward Norton", "Helena Bonham Carter" ],
+  "whereToWatch" : [ "Star+", "Netflix" ],
+  "watchedStatus" : false,
+  "watchDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Os Bons Companheiros",
+  "genre" : [ "Biografia", "Crime", "Drama" ],
+  "releaseYear" : 1990,
+  "movieId" : 15,
+  "originalTitle" : "Goodfellas",
+  "duration" : 146,
+  "director" : "Martin Scorsese",
+  "synopsis" : "A história de Henry Hill e sua vida na máfia, cobrindo seu relacionamento com sua esposa Karen Hill e seus parceiros mafiosos Jimmy Conway e Tommy DeVito.",
+  "cast" : [ "Robert De Niro", "Ray Liotta", "Joe Pesci" ],
+  "whereToWatch" : [ "HBO Max" ],
+  "watchedStatus" : true,
+  "watchDate" : 1675220400000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "A direção de Scorsese é impecável.",
+      "reviewDate" : 1675220400000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 5.0
+} ]

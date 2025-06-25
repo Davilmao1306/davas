@@ -1,0 +1,263 @@
+[ {
+  "title" : "1984",
+  "genre" : [ "Distopia", "Ficção Científica", "Política" ],
+  "releaseYear" : 1949,
+  "bookId" : 2,
+  "originalTitle" : "Nineteen Eighty-Four",
+  "author" : "George Orwell",
+  "publisher" : "Companhia das Letras",
+  "isbn" : "9788535914849",
+  "readStatus" : true,
+  "readDate" : 1672542000000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "Uma obra-prima atemporal sobre vigilância.",
+      "reviewDate" : 1672542000000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "O Senhor dos Anéis: A Sociedade do Anel",
+  "genre" : [ "Fantasia", "Aventura", "Épico" ],
+  "releaseYear" : 1954,
+  "bookId" : 3,
+  "originalTitle" : "The Lord of the Rings: The Fellowship of the Ring",
+  "author" : "J.R.R. Tolkien",
+  "publisher" : "HarperCollins",
+  "isbn" : "9780261102354",
+  "readStatus" : false,
+  "readDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Cem Anos de Solidão",
+  "genre" : [ "Realismo Mágico", "Ficção" ],
+  "releaseYear" : 1967,
+  "bookId" : 4,
+  "originalTitle" : "Cien años de soledad",
+  "author" : "Gabriel García Márquez",
+  "publisher" : "Record",
+  "isbn" : "9788501004735",
+  "readStatus" : true,
+  "readDate" : 1680318000000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "Complexo, poético e inesquecível.",
+      "reviewDate" : 1680318000000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Duna",
+  "genre" : [ "Ficção Científica", "Aventura", "Política" ],
+  "releaseYear" : 1965,
+  "bookId" : 5,
+  "originalTitle" : "Dune",
+  "author" : "Frank Herbert",
+  "publisher" : "Aleph",
+  "isbn" : "9788576572628",
+  "readStatus" : true,
+  "readDate" : 1704078000000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 4,
+      "comment" : "Universo incrível e muito denso.",
+      "reviewDate" : 1704078000000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 4.0,
+    "lastRating" : 4
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Sapiens: Uma Breve História da Humanidade",
+  "genre" : [ "Não-ficção", "História", "Antropologia" ],
+  "releaseYear" : 2011,
+  "bookId" : 6,
+  "originalTitle" : "Sapiens: A Brief History of Humankind",
+  "author" : "Yuval Noah Harari",
+  "publisher" : "L&PM",
+  "isbn" : "9788525434812",
+  "readStatus" : false,
+  "readDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Orgulho e Preconceito",
+  "genre" : [ "Romance", "Clássico" ],
+  "releaseYear" : 1813,
+  "bookId" : 7,
+  "originalTitle" : "Pride and Prejudice",
+  "author" : "Jane Austen",
+  "publisher" : "Martin Claret",
+  "isbn" : "9788572327794",
+  "readStatus" : true,
+  "readDate" : 1693537200000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 4,
+      "comment" : "Um clássico delicioso de ler.",
+      "reviewDate" : 1693537200000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 4.0,
+    "lastRating" : 4
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "O Guia do Mochileiro das Galáxias",
+  "genre" : [ "Ficção Científica", "Comédia", "Aventura" ],
+  "releaseYear" : 1979,
+  "bookId" : 8,
+  "originalTitle" : "The Hitchhiker's Guide to the Galaxy",
+  "author" : "Douglas Adams",
+  "publisher" : "Arqueiro",
+  "isbn" : "9788599296222",
+  "readStatus" : true,
+  "readDate" : 1688180400000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "Engraçado e inteligente. 42!",
+      "reviewDate" : 1688180400000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "A Revolução dos Bichos",
+  "genre" : [ "Sátira", "Política", "Alegoria" ],
+  "releaseYear" : 1945,
+  "bookId" : 9,
+  "originalTitle" : "Animal Farm",
+  "author" : "George Orwell",
+  "publisher" : "Companhia das Letras",
+  "isbn" : "9788535909556",
+  "readStatus" : false,
+  "readDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Crime e Castigo",
+  "genre" : [ "Ficção Psicológica", "Clássico" ],
+  "releaseYear" : 1866,
+  "bookId" : 10,
+  "originalTitle" : "Преступление и наказание",
+  "author" : "Fiódor Dostoiévski",
+  "publisher" : "Editora 34",
+  "isbn" : "9788573262033",
+  "readStatus" : false,
+  "readDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Fahrenheit 451",
+  "genre" : [ "Distopia", "Ficção Científica" ],
+  "releaseYear" : 1953,
+  "bookId" : 12,
+  "originalTitle" : "Fahrenheit 451",
+  "author" : "Ray Bradbury",
+  "publisher" : "Biblioteca Azul",
+  "isbn" : "9788525052382",
+  "readStatus" : true,
+  "readDate" : 1685588400000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 4,
+      "comment" : "Assustadoramente relevante.",
+      "reviewDate" : 1685588400000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 4.0,
+    "lastRating" : 4
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "O Grande Gatsby",
+  "genre" : [ "Ficção", "Clássico" ],
+  "releaseYear" : 1925,
+  "bookId" : 13,
+  "originalTitle" : "The Great Gatsby",
+  "author" : "F. Scott Fitzgerald",
+  "publisher" : "Companhia das Letras",
+  "isbn" : "9788535919370",
+  "readStatus" : false,
+  "readDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Dom Quixote",
+  "genre" : [ "Sátira", "Clássico", "Aventura" ],
+  "releaseYear" : 1605,
+  "bookId" : 14,
+  "originalTitle" : "El ingenioso hidalgo don Quijote de la Mancha",
+  "author" : "Miguel de Cervantes",
+  "publisher" : "Penguin Companhia",
+  "isbn" : "9788563560241",
+  "readStatus" : false,
+  "readDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Ensaio sobre a Cegueira",
+  "genre" : [ "Ficção", "Alegoria", "Drama" ],
+  "releaseYear" : 1995,
+  "bookId" : 15,
+  "originalTitle" : "Ensaio sobre a Cegueira",
+  "author" : "José Saramago",
+  "publisher" : "Companhia das Letras",
+  "isbn" : "9788535905992",
+  "readStatus" : true,
+  "readDate" : 1675220400000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "Perturbador e genial. Saramago é único.",
+      "reviewDate" : 1675220400000
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 0.0
+} ]

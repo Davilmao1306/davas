@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diariocultural.fx.LibraryViewController">
+    <children>
+        <ToolBar>
+            <items>
+                <Label text="Pesquisar:" />
+                <TextField fx:id="searchField" prefWidth="300.0" promptText="Busque por título, autor, gênero..." />
+                <Button onAction="#onSearchButtonClick" text="Buscar" />
+                <Button onAction="#onResetButtonClick" text="Limpar Busca" />
+            </items>
+        </ToolBar>
+        <TableView fx:id="mediaTableView" VBox.vgrow="ALWAYS">
+            <columns>
+                <TableColumn fx:id="typeColumn" prefWidth="100.0" text="Tipo" />
+                <TableColumn fx:id="titleColumn" prefWidth="350.0" text="Título" />
+                <TableColumn fx:id="creatorColumn" prefWidth="250.0" text="Autor / Diretor" />
+                <TableColumn fx:id="yearColumn" prefWidth="100.0" text="Ano" />
+            </columns>
+        </TableView>
+        <HBox alignment="CENTER_RIGHT" spacing="10.0">
+            <children>
+                <Button onAction="#onEditButtonClick" text="Editar Selecionado" />
+                <Button onAction="#onDeleteButtonClick" text="Excluir Selecionado" style="-fx-background-color: #E57373;" />
+            </children>
+        </HBox>
+    </children>
+    <padding><Insets top="10" right="10" bottom="10" left="10" /></padding>
+</VBox>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" spacing="15.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diariocultural.fx.SeriesFormController">
+    <padding>
+        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+    </padding>
+    <children>
+        <Label text="Adicionar / Editar Série">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <ScrollPane fitToWidth="true" VBox.vgrow="ALWAYS">
+            <content>
+                <VBox spacing="20.0">
+                    <GridPane hgap="10.0" vgap="10.0">
+                        <Label text="Título:" GridPane.halignment="RIGHT" />
+                        <TextField fx:id="titleField" GridPane.columnIndex="1" />
+                        <Label text="Título Original:" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+                        <TextField fx:id="originalTitleField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label text="Criador(es):" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+                        <TextField fx:id="creatorField" promptText="Ex: Vince Gilligan" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label text="Ano de Lançamento:" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+                        <TextField fx:id="releaseYearField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label text="Ano de Término:" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+                        <TextField fx:id="endYearField" promptText="0 se em andamento" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label text="Gêneros (c/ vírgula):" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
+                        <TextField fx:id="genreField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Label text="Elenco Principal (c/ vírgula):" GridPane.halignment="RIGHT" GridPane.rowIndex="5" />
+                        <TextArea fx:id="castArea" prefHeight="60.0" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Label text="Onde Assistir (c/ vírgula):" GridPane.halignment="RIGHT" GridPane.rowIndex="6" />
+                        <TextField fx:id="whereToWatchField" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <CheckBox fx:id="watchedStatusCheckBox" mnemonicParsing="false" text="Já assisti tudo" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                    </GridPane>
+                    <Separator />
+                    <Label text="Temporadas">
+                        <font>
+                            <Font name="System Bold" size="16.0" />
+                        </font>
+                    </Label>
+                    <TableView fx:id="seasonsTableView" prefHeight="200.0">
+                        <columns>
+                            <TableColumn fx:id="seasonNumberColumn" prefWidth="100.0" text="Temporada" />
+                            <TableColumn fx:id="seasonYearColumn" prefWidth="120.0" text="Ano" />
+                            <TableColumn fx:id="episodesColumn" prefWidth="120.0" text="Episódios" />
+                        </columns>
+                    </TableView>
+                    <HBox spacing="10.0">
+                        <Button onAction="#onAddSeason" text="Adicionar Temporada" />
+                        <Button onAction="#onRemoveSeason" style="-fx-background-color: #E57373;" text="Remover Selecionada" />
+                    </HBox>
+                </VBox>
+            </content>
+        </ScrollPane>
+        <Button fx:id="saveButton" onAction="#onSaveButtonClick" prefHeight="40.0" prefWidth="200.0" text="Adicionar Série" />
+    </children>
+</VBox>
